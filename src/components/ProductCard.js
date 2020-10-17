@@ -17,3 +17,17 @@ const ProductCard = ({ product }) => {
     )
 }
 export { ProductCard }
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        borderWidth: 1,
+        padding: 10,
+        margin: 5,
+        borderRadius: 10,
+        borderColor: '#e0e0e0'
+    },
+    image: {
+        height: Dimensions.get('window').height / 4,
+        resizeMode: 'contain'
+    }
+})

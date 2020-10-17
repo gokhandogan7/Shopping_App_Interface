@@ -33,7 +33,7 @@ const App = () => {
     <SafeAreaView>
       <Text style={styles.banner}>Clarushop</Text>
       <View sytle={styles.searchBar}>
-        <TextInput placeholder="ürün ara..." onChangeText = {(value) => setSearchValue(value)} />
+        <TextInput placeholder="Ürün ara..." onChangeText = {(value) => setSearchValue(value)} />
       </View>
       <View>
         <FlatList

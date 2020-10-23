@@ -17,7 +17,7 @@ export {ProductCard};
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    borderWidth: 1,
+    borderWidth: 2,
     padding: 10,
     margin: 5,
     borderRadius: 10,

@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
     padding: 10,
     margin: 5,
     borderRadius: 10,
-    borderColor: '#e0e0e0',
+    borderColor: '#f0f0f0',
   },
   image: {
     height: Dimensions.get('window').height / 4,
